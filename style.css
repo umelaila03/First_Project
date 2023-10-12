@@ -326,6 +326,10 @@ header .res-nav a:hover{
     text-align: center;
 }
 
+.services{
+    display: none;
+}
+
 .services .servicesTitle,
 .porfolio .portfolioTitle
 .contact-details .contactTitle{
