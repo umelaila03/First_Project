@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font aweomse  -->
+    <script src="https://kit.fontawesome.com/339458ac01.js" crossorigin="anonymous"></script>
+    <title>Our First Project || Web Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header section starts  -->
+    <header id="header">
+        <nav>
+            <div class="left-nav">
+                <img class="logo" src="Images/logo.png" alt="">
+            </div>
+            <div class="mean-nav" >
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Pricing</a>
+                <a href="#">Blogs</a>
+
+            </div>
+            <div class="right-nav">
+                <button>Contact</button>
+                <i class="bars fa-solid fa-bars" id="bar-menu"></i>
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+            </div>
+        </nav>
+        <div class="res-nav hide">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blogs</a>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- hero section starts  -->
+    <section class="hero" id="hero">
+        <div class="left-side-hero">
+            <span class="name">Gabriel Pires</span>
+            <h1>The Simple, clean Design</h1>
+            <p class="desc">
+                Agency provides a full service range including technical skills, design, business understanding.
+            </p>
+            <button class="btn">See my work</button>
+        </div>
+
+        <div class="right-side-hero">
+            <img src="Images/hero.png" alt="">
+        </div>
+    </section>
+    <!-- hero section ends -->
+
+
+    <!-- section services starts  -->
+    <section class="services light-bg" id="services">
+
+        <div class="servicesTitle">
+            <span class="sub-title text-main">Services</span>
+            <h2 class="title text-title">
+                How i can help <br> you with
+            </h2>
+        </div>
+
+        <div class="servicesBox">
+            <div class="servicesItem">
+                <div class="iconBox">
+                    <i class="icon fa-brands fa-figma"></i>
+                    <h3>Desgin</h3>
+                </div>
+                <p class="desc">
+                    Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+                </p>
+                <div class="learnMore">
+                    <i class="plus fa-solid fa-plus"></i>
+                    <span>learn more</span>
+                </div>
+            </div>
+            <div class="servicesItem">
+                <div class="iconBox">
+                    <i class="icon fa-solid fa-code"></i>
+                    <h3>Development</h3>
+                </div>
+                <p class="desc">
+                    Hire to outsource your digital marketing efforts, instead of handling in-house can provide your business.
+                </p>
+                <div class="learnMore">
+                    <i class="plus fa-solid fa-plus"></i>
+                    <span>learn more</span>
+                </div>
+            </div>
+        </div>
+        <div class="explore">
+            <p>Want more service? <a href="#explore">Explore Now</a></p>
+        </div>
+    </section>
+    <!-- section services ends  -->
+
+    <!-- section portfolio starts -->
+    <section class="portfolio dark-bg" id="portfolio">
+
+        <div class="portfolioTitle">
+            <span class="sub-title text-main">Portfolio</span>
+            <h2 class="title text-white">
+                Latest Work
+            </h2>
+        </div>
+
+        <div class="filterContainer">
+            <div class="filterText text-white">
+                <span>Filters </span>
+            </div>
+            <div class="filterItem">
+                <span> All</span>
+            </div>
+            <div class="filterItem">
+                <span> Brading</span>
+            </div>
+            <div class="filterItem">
+                <span> UX / UI</span>
+            </div>
+            <div class="filterItem">
+                <span> Web Desgin</span>
+            </div>
+            <div class="filterItem">
+                <span> Logo Design</span>
+            </div>
+        </div>
+
+        <div class="mainPortfolio">
+            <div class="subPortfolio">
+                <div class="portfolioImgBox">
+                    <span>Branding</span>
+                    <h3>Work Media</h3>
+                </div>
+            </div>
+            <div class="subPortfolio">
+                <div class="portfolioImgBox">
+                    <span>Desgin</span>
+                    <h3>SOFA</h3>
+                </div>
+            </div>
+            <div class="subPortfolio">
+                <div class="portfolioImgBox">
+                    <span>Design</span>
+                    <h3>KeyBoard</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn">
+            Explore More
+        </div>
+    </section>
+    <!-- section portfolio ends -->
+
+    <!-- section contact starts -->
+    <section class="contact dark-bg text-white" id="contact">
+        <form class="contact-form">
+            <h1 class="text-title">Get in Touch</h1>
+            <input type="text" name="fullname" placeholder="James Smith" required>
+            <select name="subject" required>
+                <option value="val0" selected> -- options --</option>
+                <option value="val1">Web Developement</option>
+                <option value="val2">Graphic Desgin</option>
+                <option value="val3">Brading</option>
+                <option value="val4">Logo Desgin</option>
+                <option value="val5">Marketing</option>
+            </select>
+            <textarea name="message">
+
+            </textarea>
+            <button type="submit" class="btn">submit now</button>
+        </form>
+
+        <div class="contact-details">
+            <div class="contactTitle">
+                <span class="sub-title text-main">Contact</span>
+                <h2 class="title text-white">
+                    Contact Me
+                </h2>
+            </div>
+            <p class="desc">
+                A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
+            </p>
+
+            <ul class="details">
+                <li>
+                    <i class="icon fa-solid fa-location-arrow"></i>
+                    <span>2247 Lunetta Street, TX 76301</span>
+                </li>
+                <li>
+                    <i class="icon fa-solid fa-phone-volume"></i>
+                    <a href="tel:+1(234)5678900" target="_blank">+1 (234) 567-89-00</a>
+                </li>
+                <li>
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <a href="mail:info@agency.com">info@agency.com</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- section contact ends -->
+
+    <footer class="footer dark-bg text-white" id="footer">
+        <div class="footerBox">
+            <div class="footerLogo flex">
+                <img src="Images/main-logo.png" alt="">
+            </div>
+            <div class="footerMenu flex">
+                <h3 class="text-main">
+                    Menu
+                </h3>
+
+                <ul>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerMenu flex">
+                <h3 class="text-main">
+                    Services
+                </h3>
+
+                <ul>
+                    <li>
+                        <a href="desgin.html">Desgin</a>
+                    </li>
+                    <li>
+                        <a href="development.html">Developement</a>
+                    </li>
+                    <li>
+                        <a href="marketing.html">Marketing</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">see more</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerSocials flex">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyrightText">
+                <p>Copyright © 2022 Portfolio_Code_Design . All Rights Reserved.</p>
+            </div>
+            <div class="policy-condition">
+                <a href="policy.html">Privacy Policy</a>
+                <a href="conditions.html">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        const meanNav = document.querySelector('header .res-nav');
+        const barMenu = document.getElementById('bar-menu');
+        barMenu.onclick = () =>{
+            meanNav.classList.toggle('hide');
+            barMenu.classList.toggle('fa-xmark');
+        }
+    </script>
+
+</body>
+</html>
